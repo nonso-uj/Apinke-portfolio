@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">APINKE</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Portfolio Workshop">Portfolio Workshop</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">INIOLUWA APINKE AFOLABI</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Portfolio Workshop" onclick="toggleMenu()">Portfolio Workshop</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/Profile original.jpg" alt="INIOLUWA APINKE AFOLABI profile 
+          picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Inioluwa Apinke Afolabi</h1>
+            <p class="section__text__p2">Data Analyst</p>
+            <div class="btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="window.open('./assets/cv 2024.pdf')"
+                >
+                  Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                  Contact Info
+                </button>  
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/insta.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/theapinke/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/The-Apinke'"
+          />
+        </div>
+      </div>
+    </section>
+<section id="About">
+  <p class="section__text__p1">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <div class="section-container">
+    <div class="section__pic-container">
+      <img
+        src="./assets/Profile white.jpg"
+        alt="Profile picture"
+        class="about-pic"
+      />
+    </div>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img
+            src="./assets/experience.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <h3>Experience</h3>
+          <p>2+ years <br />Data Analytics
+          <br />Data Instructor</p>
+        </div>
+        <div class="details-container">
+          <img
+            src="./assets/education.png"
+            alt="Education icon"
+            class="icon"
+          />
+          <h3>Education</h3>
+          <p>B.sc Mathematics and Education (In Progress)<br /> Google Data Analytics Professional Certificate <br />Problem-Solving Using Computational Skills - University of Michigan <br />Datacamp</p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+            If you're joining me from Instagram or any of my other social media accounts, you might know me as Apinke. For those who don't, nice to meet you! I'm Inioluwa Apinke Afolabi, and I've got this knack for making decisions backed by data.
+           
+            Take last year, for example. When everyone was buzzing about Barbie's new movie, I wasn't convinced by the trailer alone. So, what did I do? I dug into the reviews, organized them into a spreadsheet, and analyzed the data to help me decide whether to see the movie.
+            That's just how my brain works – always seeking out data to guide my decisions.
+            As an instructor, I bring that same passion for data to guiding aspiring data enthusiasts. I love helping others unlock the power of data analysis, knowing I'm shaping their career paths, helping them achieve financial freedom, and changing lives for the better.
+            
+            
+        </p>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#Experience'"
+  />
+</section>
+<section id="Experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="Experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="Experience-sub-title">TECHNICAL SKILLS</h2>
+        <div class="article-container">
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>MICROSOFT EXCEL</h3>
+              <p></p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>SQL</h3>
+              <p></p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>GOOGLE SHEETS  </h3>
+              <p></p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>PYTHON</h3>
+              <p></p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>POWER BI</h3>
+              <p></p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>TABLEAU</h3>
+              <p></p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="details-container">
+        <h2 class="Experience-sub-title">SOFT SKILLS</h2>
+        <div class="article-container">
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>STRONG ANALYTICAL SKILLS</h3>
+              <p></p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>PROBLEM SOLVING ABILITIES</h3>
+              <p></p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>COLLABORATION AND TEAMWORK</h3>
+              <p></p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>COMMITMENT TO CONTINUOUS LEARNING</h3>
+              <p></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#projects'"
+  />
+</section>
+<section id="Projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="Experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/PROJECT1LONG.jpg"
+            alt="Project 1"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">WAS BARBIE REALLY THAT GOOD?</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://medium.com/@THEAPINKE/was-barbie-really-that-good-45d58ffb417c'"
+          >
+           MEDIUM
+          </button>
+          <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://docs.google.com/spreadsheets/d/1NZFSeHMZr90CxexwfVL-Lq8RCoFWSPApKO4Ygkj-XLs/edit?usp=sharing'"
+        >
+         SHEETS
+        </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/library.webp"
+            alt="Project 2"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">USING SQL TO ANALYZE THE GOODREADS DATASET</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/The-Apinke/Using-SQL-To-Analyze-The-Books-Dataset.git'"
+          >
+            GITHUB
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://medium.com/@THEAPINKE/using-sql-to-analyze-the-books-dataset-13fffc3d3939'"
+          >
+            MEDIUM
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/PROJECT3.webp"
+            alt="Project 2"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">HR ANALYTICS PROJECT WITH POWER BI</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://medium.com/@THEAPINKE/hr-analytics-project-with-power-bi-67e73869a63e"
+          >
+           MEDIUM
+          </button>
+    
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/University-students-in-Africa.jpg"
+            alt="Project 3"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Education's Elite:Using Python to Analyze Universities Globally</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.kaggle.com/code/afolabiini/education-s-elite-analyzing-universities-globally"
+          >
+            Kaggle
+        </button>
+          </button>
+        </div>
+      </div>
+    </section>
+
+          <section id="Portfolio Workshop">
+            <p class="section__text__p1">Unlock Your Potential</p>
+            <h1 class="title">Portfolio Workshop</h1>
+            <div class="workshop-details-container">
+              <p>Ready to take your data analytics skills to the next level? Join our intensive two-week workshop where you'll build a dynamic portfolio from scratch. From mastering Excel and SQL to crafting captivating visualizations with Power BI and Python, this workshop is your ticket to standing out in the world of data analytics.</p>
+              <button class="btn btn-color-1 workshop-btn" onclick="location.href='#RegistrationForm'">Register Now</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#contact'"
+  /> 
+</section>
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:examplemail@gmail.com">foapinke@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img
+        src="./assets/linkedin.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Portfolio Workshop">Portfolio Workshop</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
