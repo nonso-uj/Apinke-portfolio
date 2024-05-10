@@ -52,10 +52,11 @@
   #contact,
   footer {
     height: 40vh;
+    margin: 0 0;
   }
   #profile {
-    height: 83vh;
-    margin-bottom: 0;
+    height: fit-content;
+    margin-bottom: 4rem;
   }
   article {
     font-size: 1rem;
@@ -80,7 +81,9 @@
     font-size: 1.25rem;
   }
   .logo {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    line-height: 1.3rem;
   }
   .nav-links {
     flex-direction: column;
@@ -100,5 +103,51 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  #profile .section__pic-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+  }
+  
+  #profile .section__pic-container img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .menu-links.open{
+    right: -3rem;
+    width: 100vw;
+  }
+
+  #about .section-container {
+    gap: 1rem;
+  }
+
+  .section-container .section__pic-container {
+    height: 400px;
+    width: 100%;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 3rem;
+  }
+
+  .about-pic {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    object-position: 0px 0px;
+  }
+
+  .desktop-copyright{
+    display: none;
+  }
+
+  .mobile-copyright{
+    display: block;
   }
 }
