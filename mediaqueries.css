@@ -150,4 +150,18 @@
   .mobile-copyright{
     display: block;
   }
+
+  article {
+    width: 100%;
+    margin: 0 1rem;
+  }
+
+  .project-containers {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  #portfolio-workshop {
+    margin: 10rem 0rem 10rem 0rem;
+    border-radius: 0%;
+  }
 }
