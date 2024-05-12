@@ -164,4 +164,102 @@
     margin: 10rem 0rem 10rem 0rem;
     border-radius: 0%;
   }
+
+  .workshop-intro-div{
+    width: 85%;
+  }
+
+  .workshop-intro-p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .section-middot{
+    display: none;
+  }
+
+  .reason-section{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+  }
+
+  .reason-section1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-right: none;
+    position: relative;
+    top: -2rem;
+  }
+
+  .reason-section1 p{
+    font-size: 14rem;
+    left: 0rem;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .reason-section2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 1.2rem;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    position: relative;
+    top: -5rem;
+  }
+
+  .section2{
+    flex-direction: column-reverse;
+  }
+
+  .reason-section4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .reason-section4 p{
+    font-size: 14rem;
+    font-weight: 800;
+    right: 0rem;
+    left: 0rem;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .reason-section3{
+    padding: 0 2rem;
+    border-right: none;
+    position: relative;
+    top: -5rem;
+  }
+
+  .form-container {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .form-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    column-gap: 2rem;
+  }
 }

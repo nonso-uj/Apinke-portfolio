@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav id="desktop-nav">
+      <div class="logo"><a href="/">APINKE</a></div>
+      <div>
+          <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#portfolio-workshop">Portfolio Workshop</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">INIOLUWA <br>APINKE <br>AFOLABI</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#portfolio-workshop" onclick="toggleMenu()">Portfolio Workshop</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- INTRO -->
+    <div class="workshop-intro">
+        <div class="workshop-intro-div">
+            <p class="workshop-intro-p"><span style="color: rgb(59, 92, 210);">PORTFOLIO WORKSHOP</span> Ready to take your data analytics skills to the next level? Join our intensive two-week workshop where you'll build a dynamic portfolio from scratch.</p>
+        </div>
+        <div class="animate__animated animate__bounce animate__infinite intro-middot"></div>
+    </div>
+
+    <!-- TYPE 1 -->
+    <div class="reason-section">
+        <div class="reason-section1">
+            <p class="reason-section-p1 fadeLeft1">01</p>
+        </div>
+        <div class="reason-section2">
+            <h2 class="fadeInUp">Requirements</h2>
+            <p class="fadeInUp">Our initial meeting or call will identify your objectives and decipher exactly how we can help. This involves some deep digging into your company, your competitors, your audience and, most importantly, what you want to achieve.</p>
+        </div>
+        <div class="section-middot"></div>
+    </div>
+    
+    <!-- TYPE 2 -->
+    <div class="reason-section section2">
+        <div class="reason-section3">
+            <h2 class="fadeInUp">Requirements</h2>
+            <p class="fadeInUp">Our initial meeting or call will identify your objectives and decipher exactly how we can help. This involves some deep digging into your company, your competitors, your audience and, most importantly, what you want to achieve.</p>
+        </div>
+        <div class="reason-section4">
+            <p class="reason-section-p2 fadeRight">02</p>
+        </div>
+        <div class="section-middot"></div>
+    </div>
+    
+    <!-- TYPE 1 -->
+    <div class="reason-section">
+        <div class="reason-section1">
+            <p class="reason-section-p3 fadeLeft">03</p>
+        </div>
+        <div class="reason-section2">
+            <h2 class="fadeInUp">Requirements</h2>
+            <p class="fadeInUp">Our initial meeting or call will identify your objectives and decipher exactly how we can help. This involves some deep digging into your company, your competitors, your audience and, most importantly, what you want to achieve.</p>
+        </div>
+        <div class="section-middot"></div>
+    </div>
+    
+    <!-- TYPE 2 -->
+    <div class="reason-section section2">
+        <div class="reason-section3">
+            <h2 class="fadeInUp">Requirements</h2>
+            <p class="fadeInUp">Our initial meeting or call will identify your objectives and decipher exactly how we can help. This involves some deep digging into your company, your competitors, your audience and, most importantly, what you want to achieve.</p>
+        </div>
+        <div class="reason-section4">
+            <p class="reason-section-p4 fadeRight">04</p>
+        </div>
+        <div class="section-middot"></div>
+    </div>
+    
+    <!-- TYPE 1 -->
+    <div class="reason-section">
+        <div class="reason-section1">
+            <p class="reason-section-p5 fadeLeft">05</p>
+        </div>
+        <div class="reason-section2">
+            <h2 class="fadeInUp">Requirements</h2>
+            <p class="fadeInUp">Our initial meeting or call will identify your objectives and decipher exactly how we can help. This involves some deep digging into your company, your competitors, your audience and, most importantly, what you want to achieve.</p>
+        </div>
+        <div class="section-middot"></div>
+    </div>
+
+    <!-- FORM SECTION -->
+    <div class="form-section">
+        <div class="form-container">
+            <form id="contact-form" class="form">
+                <div class="form-2">
+                    <div class="form-group">
+                        <label for="user_name">Name</label>
+                        <input required="" name="user_name" id="user_name" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="user_email">Email</label>
+                        <input required="" name="user_email" id="user_email" type="email">
+                    </div>
+                </div>
+                
+                <div class="form-2">
+                    <div class="form-group">
+                        <label for="user_phone">Phone</label>
+                        <input required="" name="user_phone" id="user_phone" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="user_title">Title</label>
+                        <input required="" name="user_title" id="user_title" type="text">
+                    </div>
+                </div>
+
+                <div class="form-1">
+                    <div class="form-group">
+                        <label for="message">How Can We Help You?</label>
+                        <textarea required="" cols="50" rows="10" id="message" name="message"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="form-submit-btn">Submit</button>
+            </form>
+            
+            <div id="status-messages">
+                <p id="success-message">MESSAGE SENT SUCCESSFULLY!!!</p>
+                <p id="error-message">AN ERROR OCCURED, CHECK YOUR CONNECTION AND TRY AGAIN!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <div id="testimonials" class="outerdiv">
+        <div class="innerdiv">
+          <!-- div1 -->
+          <div class="div1 eachdiv">
+            <div class="userdetails">
+              <!-- <div class="imgbox">
+                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg" alt="">
+              </div> -->
+              <div class="detbox">
+                <p class="name">Daniel Clifford</p>
+                <p class="designation">Verified Graduate</p>
+              </div>
+            </div>
+            <div class="review">
+              <h4>I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.</h4>
+            <p>“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. ”</p>
+            </div>
+          </div>
+          <!-- div2 -->
+          <div class="div2 eachdiv">
+            <div class="userdetails">
+              <!-- <div class="imgbox">
+                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg" alt="">
+              </div> -->
+              <div class="detbox">
+                <p class="name">Jonathan Walters</p>
+                <p class="designation">Verified Graduate</p>
+              </div>
+            </div>
+            <div class="review">
+              <h4>The team was very supportive and kept me motivated</h4>
+            <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”</p>
+            </div>
+          </div>
+          <!-- div3 -->
+          <div class="div3 eachdiv">
+            <div class="userdetails">
+              <!-- <div class="imgbox">
+                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg" alt="">
+              </div> -->
+              <div class="detbox">
+                <p class="name dark">Kira Whittle</p>
+                <p class="designation dark">Verified Graduate</p>
+              </div>
+            </div>
+            <div class="review dark">
+              <h4>Such a life-changing experience. Highly recommended!</h4>
+              <p>“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. ”</p>
+            </div>
+          </div>
+          <!-- div4 -->
+          <div class="div4 eachdiv">
+            <div class="userdetails">
+              <!-- <div class="imgbox">
+                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg" alt="">
+              </div> -->
+              <div class="detbox">
+                <p class="name dark">Jeanette Harmon</p>
+                <p class="designation dark">Verified Graduate</p>
+              </div>
+            </div>
+            <div class="review dark">
+              <h4>An overall wonderful and rewarding experience</h4>
+            <p>“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”</p>
+            </div>
+          </div>
+          <!-- div5 -->
+          <div class="div5 eachdiv">
+            <div class="userdetails">
+              <!-- <div class="imgbox">
+                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg" alt="">
+              </div> -->
+              <div class="detbox">
+                <p class="name">Patrick Abrams</p>
+                <p class="designation">Verified Graduate</p>
+              </div>
+            </div>
+            <div class="review">
+              <h4>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.</h4>
+            <p>“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”</p>
+            </div>
+          </div>
+        </div>
+    </div>
+      
+
+    <!-- FOOTER -->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#portfolio-workshop">Portfolio Workshop</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <p class="desktop-copyright">Copyright &#169; 2023 INIOLUWA&nbsp;APINKE&nbsp;AFOLABI. All Rights Reserved.</p>
+
+      <p class="mobile-copyright">Copyright &#169; 2023<br>INIOLUWA&nbsp;APINKE&nbsp;AFOLABI.<br>All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "1y5t7W-3fdC3xEFji",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('service_jse0iq9', 'contact_form', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                        document.getElementById('success-message').style.display = 'block';
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                        document.getElementById('error-message').style.display = 'block';
+                    });
+            });
+        }
+    </script>
+  
+  </body>
+</html>
